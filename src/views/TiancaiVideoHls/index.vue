@@ -5,7 +5,7 @@ import TiancaiVideoHls from 'tiancai-video-hls'
 
 onMounted(() => {
   const video = new TiancaiVideoHls({
-    autoPlay: false,
+    autoPlay: true,
     onHandle: {
       onError: () => { console.log('onError') },
       onSuccee: () => { console.log(`onSuccee`) },
@@ -22,8 +22,24 @@ onMounted(() => {
 })
 </script>
 <template>
-  <div>
-    <div id="tiancai9-video"></div>
-  </div>
+  <div id="tiancai9-video"></div>
 </template>
-<style lang="scss" scoped></style>
+<style scoped>
+body {
+  margin: 0;
+  font-size: 16px;
+  height: 100vh;
+}
+
+#tiancai9-video {
+  width: 40%;
+  height: 400px;
+}
+
+@media(max-width:400px) {
+  #tiancai9-video {
+    width: 100%;
+    height: 200px;
+  }
+}
+</style>
