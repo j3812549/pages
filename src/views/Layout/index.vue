@@ -16,6 +16,16 @@ import { RouterLink } from 'vue-router'
               href="https://www.npmjs.com/package/vue-keep-cache-scroll-hooks">npm</a></span>
         </div>
       </li>
+      <li>
+        <div>
+          <RouterLink to="/tiancaivideohls">tiancai-video-hls</RouterLink>
+          <span class="ml-2">基于原生js实现的hls视频播放器，可播放m3u8视频</span>
+          <span class="ml-2"><a class="font-bold"
+              href="https://github.com/j3812549/tiancai-video-hls">github</a></span>
+          <span class="ml-2"><a class="font-bold"
+              href="https://www.npmjs.com/package/tiancai-video-hls">npm</a></span>
+        </div>
+      </li>
     </ul>
   </div>
 </template>

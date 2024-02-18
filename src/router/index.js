@@ -9,6 +9,11 @@ const router = createRouter({
       component: () => import('@/views/Layout/index.vue')
     },
     {
+      path: '/tiancaivideohls',
+      name: 'TiancaiVideoHls',
+      component: () => import('@/views/TiancaiVideoHls/index.vue')
+    },
+    {
       path: '/vuekeepcachescrollhooks',
       name: 'VueKeepCacheScrollHooks',
       redirect: '/vuekeepcachescrollhooks/a',
