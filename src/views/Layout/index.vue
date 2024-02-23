@@ -26,6 +26,14 @@ import { RouterLink } from 'vue-router'
               href="https://www.npmjs.com/package/tiancai-video-hls">npm</a></span>
         </div>
       </li>
+      <li>
+        <div>
+          tiancai-mpa-ejs-hot-webpack-cli
+          <span class="ml-2">带热更新的多页面可模块化的脚手架工具、请求同时支持SEO和AJax、支持SCSS编写</span>
+          <span class="ml-2"><a class="font-bold"
+              href="https://github.com/j3812549/tiancai-mpa-ejs-hot-webpack-cli">github</a></span>
+        </div>
+      </li>
     </ul>
   </div>
 </template>
