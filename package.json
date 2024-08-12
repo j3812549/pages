@@ -10,6 +10,7 @@
     "deploy": "gh-pages -d dist/"
   },
   "dependencies": {
+    "tiancai-video-hls": "^1.0.4",
     "vue": "^3.4.15",
     "vue-keep-cache-scroll-hooks": "^1.0.0",
     "vue-router": "^4.2.5"
